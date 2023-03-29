@@ -140,14 +140,28 @@ input:focus + .arrow {
 	text-align: center;
 }
 
+.containerNumber {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.btn {
+	margin-top: 5px;
+	height: 20px;
+	background-color: #2ce8f9;
+	color: #002f34;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
 /* Make them responsive and restricted*/
 
 /* Desktop/PC */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 }
 
 /* Ipad/Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+/* @media (min-width: 740px) and (max-width: 1023px) {
 }
 
 @media (max-width: 739px) {
@@ -160,4 +174,4 @@ input:focus + .arrow {
 		width: 100% !important;
 		margin: 8px 0;
 	}
-}
+/* }*/
